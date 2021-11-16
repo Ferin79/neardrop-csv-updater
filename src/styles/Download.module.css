@@ -1,0 +1,38 @@
+.downloadWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.form__button,
+.form__button2,
+.form__button3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 10px;
+  background: linear-gradient(138.93deg, #5f8afa 22.36%, #6b6ef9 76.72%);
+  font-size: 18px;
+  color: #ffffff;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  background: linear-gradient(45deg, #5f8afa 22.36%, #6b6ef9 76.72%);
+}
+
+.form__button2 {
+  background: rgba(50, 50, 50, 0.5);
+  cursor: not-allowed;
+}
+.form__button3 {
+  color: red;
+  background: transparent;
+}
